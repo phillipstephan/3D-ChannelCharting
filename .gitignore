@@ -1,3 +1,14 @@
+# Ignore Python cache files and Jupyter notebook checkpoints
 __pycache__
 .ipynb_checkpoints
-dataset
+.DS_Store
+
+# Scenario 1: Ignore 3D model and results, keep the results folder itself
+Scenario1_Factory-Hall/dataset/3D-Model_ARENA2036-Metalcube.blend
+Scenario1_Factory-Hall/results/*
+!Scenario1_Factory-Hall/results/.gitkeep
+
+# Scenario 2: Ignore 3D model and results, keep the results folder itself
+Scenario2_Multistory-Building/dataset/3D-Model_Multistory-Building.blend
+Scenario2_Multistory-Building/results/*
+!Scenario2_Multistory-Building/results/.gitkeep
