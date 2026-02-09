@@ -1,4 +1,1 @@
-# 3D_CC_Scenario1
-
-
-Something
+# Scenario 1: Factory Hall
