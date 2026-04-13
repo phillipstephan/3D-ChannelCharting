@@ -1,27 +1,26 @@
 # Three-Dimensional Radio Localization: A Channel Charting-Based Approach
 
-
-This repository contains the source code for the results presented in the paper
+This repository contains the source code used to produce the results presented in the paper
 
 > <a href="https://ieeexplore.ieee.org/document/11443887">Phillip Stephan, Florian Euchner, Stephan ten Brink: "Three-Dimensional Radio Localization: A Channel Charting-Based Approach"</a>
 
-presented at the 2025 59th Asilomar Conference on Signals, Systems, and Computers in Pacific Grove, CA, USA.
+which was presented at the 2025 59th Asilomar Conference on Signals, Systems, and Computers in Pacific Grove, CA, USA.
 
 * A preprint is <a href="https://arxiv.org/abs/2512.15399">available on arXiv</a>.
 
 ## Structure of this Repository
 This repository contains two folders:
 
-* `Scenario1_Factory-Hall`
-* `Scenario2_Multistory-Building`
+* `Scenario1_Factory-Hall` for the factory hall scenario
+* `Scenario2_Multistory-Building` for the multistory building scenario
 
 ## Prerequisites
-Our code is based on Python, TensorFlow, NumPy, SciPy and Matplotlib.
-Source files are provided as Jupyter Notebooks, which can be opened directly here on GitHub or using e.g. [JupyterLab](https://jupyter.org/).
+The code is based on Python, TensorFlow, NumPy, SciPy, and Matplotlib.
+The source files are provided as Jupyter notebooks, which can be opened directly on GitHub or with tools such as [JupyterLab](https://jupyter.org/).
 
-We run our Channel Charting experiments on a JupyterHub server with NVMe storage, AMD EPYC 7262 8-Core Processor, 64GB RAM, and a NVIDIA GeForce RTX 4080 GPU for accelerating TensorFlow.
-All indications of computation times are measured on this system.
-It should also be possible to run our notebooks on less performant systems.
+We run our Channel Charting experiments on a JupyterHub server with NVMe storage, an AMD EPYC 7262 8-Core Processor, 64 GB RAM, and an NVIDIA GeForce RTX 4080 GPU to accelerate TensorFlow.
+All reported computation times were measured on this system.
+The notebooks should also run on less powerful systems.
 
 ## Citation
 
