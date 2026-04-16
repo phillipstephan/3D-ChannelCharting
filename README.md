@@ -1,6 +1,6 @@
 # Three-Dimensional Radio Localization: A Channel Charting-Based Approach
 
-This repository contains the source code used to produce the results presented in the paper
+This repository contains code closely based on the implementation used to produce the results presented in the paper
 
 > <a href="https://ieeexplore.ieee.org/document/11443887">Phillip Stephan, Florian Euchner, Stephan ten Brink: "Three-Dimensional Radio Localization: A Channel Charting-Based Approach"</a>
 
@@ -15,10 +15,11 @@ This repository contains two folders:
 * `Scenario2_Multistory-Building` for the multistory building scenario
 
 ## Prerequisites
-The code is based on Python, TensorFlow, NumPy, SciPy, and Matplotlib.
-The source files are provided as Jupyter notebooks, which can be opened directly on GitHub or with tools such as [JupyterLab](https://jupyter.org/).
+The notebooks and helper modules use Python, TensorFlow/Keras, NumPy, SciPy, Matplotlib, Sionna RT, scikit-learn, and tqdm.
+For reference, the experiments reported here were run with Python 3.12.10, TensorFlow 2.19.0, Keras 3.10.0, NumPy 1.26.4, SciPy 1.15.2, Matplotlib 3.10.3, Sionna RT 1.0.2, scikit-learn 1.6.1, and tqdm 4.67.1.
+The source code is provided primarily as Jupyter notebooks, complemented by small Python helper modules, and can be opened directly on GitHub or with tools such as [JupyterLab](https://jupyter.org/).
 
-We run our Channel Charting experiments on a JupyterHub server with NVMe storage, an AMD EPYC 7262 8-Core Processor, 64 GB RAM, and an NVIDIA GeForce RTX 4080 GPU to accelerate TensorFlow.
+We run our Channel Charting experiments on a JupyterHub server with NVMe storage, an AMD EPYC 7262 8-Core Processor, 64 GB RAM, and an NVIDIA GeForce RTX 4090 GPU to accelerate TensorFlow.
 All reported computation times were measured on this system.
 The notebooks should also run on less powerful systems.
 
